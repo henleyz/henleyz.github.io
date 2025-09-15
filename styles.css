@@ -377,16 +377,18 @@ a{
  h1 {
   font-size: 4rem;
   font-weight: 300;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, dodgerblue 0%, white 190%);
-  background-size: 100%;
+
+  color: black
+  /* background-color: #ff8177;
+  background-image: linear-gradient(to top, dodgerblue 0%, white 190%); */
+  /* background-size: 100%;
   background-clip: border-box;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
-  transition: background-image 1s;
+  transition: background-image 1s; */
 }
 
 h4 {
@@ -397,18 +399,19 @@ h4 {
   transition: background-image 1s;
 }
 h2 {
-  font-size: 5rem;
+  font-size: 2rem;
   font-weight: 300;
-  background-color: #ff8177;
+  /* background-color: #ff8177;
   background-image: linear-gradient(to top, dodgerblue 0%, rgb(94, 99, 255) 100%);
   background-size: 100%;
   background-clip: border-box;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  display: flex;
+  -moz-text-fill-color: transparent; */
+  /* display: flex; */
 }
+
 
 .break {
   width: 100%;
@@ -422,10 +425,10 @@ h2 {
 }
 
 #about {
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: 1.5rem;
   width: 100%;
-
+  text-indent: 0rem;
 }
 
 #Home {
@@ -435,7 +438,7 @@ h2 {
 
 .home__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
 
@@ -504,12 +507,12 @@ nav.scroll-down{
 }
 
 .contact__bar{
-  margin-top: 1rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   width: 400px;
-  list-style: none;
-  justify-self: center;
+  /* list-style: none;
+  justify-self: center; */
 }
 
 .contact__items{
@@ -730,7 +733,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -941,8 +944,14 @@ h3{
     display: block;
     display: none;
   }
-  .main__container h1, .main__container h2 {
+  .main__container h1  {
     font-size: 3rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+
+.main__container h2 {
+    font-size: 2rem;
     margin: 0rem;
     margin-bottom: 1rem;
   }

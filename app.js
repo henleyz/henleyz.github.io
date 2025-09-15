@@ -17,7 +17,8 @@ let backgroundimg = document.getElementById("newhome");
 //
 // artbackground.style.backgroundImage = "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("+randomImage+")";
 let images = ["/arts/1darkpainting.png", "/arts/bridge.jpg", "/arts/cliff.jpg", "/arts/roof.jpg",   "/arts/tower.jpeg",  "/arts/010.jpg", "/arts/RedCottage.jpg"]
-let randomNum = Math.floor(Math.random() * images.length);
+//let randomNum = Math.floor(Math.random() * images.length);
+let randomNum = 0
 let randomImage = images[randomNum];
 function scrollfunction(e){
     let currentScroll = window.pageYOffset;
